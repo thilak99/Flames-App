@@ -5,3 +5,10 @@ modtime = 1667388121.404438300
 [app/launcher]
 version = 9.0.1
 modtime = 1667388121.411438400
+
+[views/flames_dashboard]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 9.0.1
+modtime = 1667390769.054626400

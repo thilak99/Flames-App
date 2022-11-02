@@ -1,0 +1,23 @@
+<form version="1.1" theme="dark">
+  <label>flames_dashboard</label>
+  <fieldset submitButton="true">
+    <input type="text" token="name1">
+      <label>Name 1</label>
+    </input>
+    <input type="text" token="name2">
+      <label>Name 2</label>
+    </input>
+  </fieldset>
+  <row>
+    <panel>
+      <single>
+        <search>
+          <query>|flames $name1$ $name2$</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="drilldown">none</option>
+      </single>
+    </panel>
+  </row>
+</form>
